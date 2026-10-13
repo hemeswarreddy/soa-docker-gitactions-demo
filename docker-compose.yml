@@ -14,6 +14,7 @@ services:
       - springboot-postgres-net
 
   backend:
+    platform: linux/amd64
     image: hemeswar/docker-git-actions-backend:latest
     container_name: docker-springboot
     ports:
