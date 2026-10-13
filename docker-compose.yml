@@ -26,6 +26,7 @@ services:
       - springboot-postgres-net
 
   frontend:
+    platform: linux/amd64
     image: hemeswar/docker-git-actions-frontend:latest
     container_name: docker-react
     ports:
